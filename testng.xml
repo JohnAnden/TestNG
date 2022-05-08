@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="4">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/johna/IdeaProjects/TestNG/src/test/java/paralleltesting/ParallelTest1.java">
+        <classes>
+            <class name="paralleltesting.ParallelTest1">
+                <methods>
+                    <include name="logoTest"/>
+                    <include name="homePageTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/johna/IdeaProjects/TestNG/src/test/java/paralleltesting/ParallelTest2.java">
+        <classes>
+            <class name="paralleltesting.ParallelTest2">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/johna/IdeaProjects/TestNG/src/test/java/paralleltesting/ParallelTest3.java">
+        <classes>
+            <class name="paralleltesting.ParallelTest3">
+                <methods>
+                    <include name="logoTest"/>
+                    <include name="homePageTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/johna/IdeaProjects/TestNG/src/test/java/paralleltesting/ParallelTest4.java">
+        <classes>
+            <class name="paralleltesting.ParallelTest4">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
